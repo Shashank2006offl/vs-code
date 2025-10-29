@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple JavaScript Example</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Interaction</h1>
+
+    <p id="demo">This is the original text.</p>
+
+    <button onclick="myFunction()">Click Me</button>
+
+    <script>
+        const userName = prompt("Please enter your name:");
+
+        if (userName !== null) { // Check if the user clicked "Cancel"
+            console.log("Hello, " + userName + "!");
+        } else {
+            console.log("User cancelled the input.");
+        }
+    </script>
+
+</body>
+
+</html>
